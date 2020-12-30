@@ -7,7 +7,7 @@ from functools import reduce
 import dask
 import numpy as np
 import pandas as pd
-import pydateinfer
+import dateinfer as pydateinfer
 from dask import dataframe as dd
 from dask.dataframe import from_delayed
 from multipledispatch import dispatch
